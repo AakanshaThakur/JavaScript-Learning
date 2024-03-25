@@ -31,4 +31,29 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof Symbol);
+// console.log(typeof Symbol);
+
+
+//************************************************************************************** */
+
+// Stack(Primitive), Heap(non-Premitive)
+
+let nickName = "nikki"
+
+let anothername = nickName
+anothername = "vikki"
+
+console.log(anothername);
+console.log(nickName);
+
+let user1 = {
+    email: "user.gamil.com",
+    upi: "userupi123"
+}
+
+let user2 = user1
+
+user2.email = "hghgg.gamil.com"
+
+console.log(user1.email);
+console.log(user2.email);
